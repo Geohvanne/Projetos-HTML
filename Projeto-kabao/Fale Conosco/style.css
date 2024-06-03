@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(36, 36, 34);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu{
+    margin: 5px 0px 40px 1000px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item{
+    font: normal 1.1em courier;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.item:hover{
+    font: bolder 1.4rem courier;
+    color: orange;
+}

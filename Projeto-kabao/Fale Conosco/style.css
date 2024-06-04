@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'oitobit';
+    src: url('../Fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -7,6 +11,15 @@ body{
     align-items: center;
     flex-direction: column;
 }
+a, ul, ol{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 
 #menu{
     margin: 5px 0px 40px 1000px;
@@ -14,19 +27,76 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .item{
-    font: normal 1.1em courier;
+    font: normal 0.8em 'oitobit';
     width: 200px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    font-family: 'oitobit';
+    
 }
 
 .item:hover{
-    font: bolder 1.4rem courier;
+    font: bolder 1rem 'oitobit';
     color: orange;
+}
+
+#contatos{
+    width: 500px;
+    height: 75px;
+    display: flex;
+    align-itens: center;
+    justify-content: center;
+}
+.Cont-img{
+    width: 50px;
+    height: 50px;
+}
+
+.Box-cont{
+    width: 110px;
+    height: 60px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 10px ;
+
+
+}
+.Box-cont:hover{
+    background-color: black;
+
+    height: 70px;
+    
+    
+}
+#footer{
+    background-color: black;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 00px 0px 0px 0px;
+    
+    
+}
+#fade{
+    background-image: linear-gradient(rgb(36, 36, 34), black);
+    width: 100%;
+    height: 100px;
+    margin-top: 300px;
+}
+#loc{
+    margin-bottom: px
 }

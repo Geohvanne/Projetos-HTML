@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'oitobit';
+    src: url('../Fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -9,7 +14,7 @@ body{
 }
 
 .home{
-    background-color: rgb(127, 135, 136);
+    background-color: rgb(68, 68, 68);
     border-radius: 20px;
     width:  1600px;  
     height: 700pxpx;
@@ -17,6 +22,7 @@ body{
     color: white;
     font-size: 20px;
     margin: 5px 0px 15px 0px;
+   
 }
 body{
     background-color: rgb(36, 36, 34);
@@ -24,43 +30,39 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
-.titulo{
-    margin: 0px ;
-    display: flex;
-    justify-content: center;
+a, ul, ol{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-.imgPc{
-    border-radius: 5px;
-    text-align: center;
-    margin: 10px 2px 0px 2px;
-}
-.image{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-bottom: 100px;
-}
 #menu{
     margin: 5px 0px 40px 1000px;
     width: 600px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .item{
-    font: normal 1.1em courier;
+    font: normal 0.8em 'oitobit';
     width: 200px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    font-family: 'oitobit';
+    
 }
 
+
 .item:hover{
-    font: bolder 1.4rem courier;
+    font: bolder 1rem 'oitobit';
     color: orange;
 }
 
@@ -69,15 +71,17 @@ body{
     column-gap: 15px;
     margin: 20px 0px 100px 0px;
     justify-content: center;
-    width: 1600px;
+    width: 1750px;
     height: 200px;
+    font-family: 'oitobit';
+    font-size: 12px;
 }
 
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333333;
+    background-color: rgb(51, 51, 51);
     color: white;
     height: 150px;
     min-width: 250px;
@@ -116,9 +120,13 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex-direction: column;
     align-items: center;
     
     
+}
+
+h1{
+   font-family: "oitobit";
 }

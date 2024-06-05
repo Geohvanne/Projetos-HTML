@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'oitobit';
-    src: url('../Fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+    src: url('../fonts/PressStart2P-Regular.ttf');
 }
 body{
     margin: 0px;
@@ -10,6 +10,16 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+#Header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+
 }
 a, ul, ol{
     text-decoration: none;

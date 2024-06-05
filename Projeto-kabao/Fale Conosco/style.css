@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'oitobit';
-    src: url('../Fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+    src: url('../fonts/PressStart2P-Regular.ttf');
 }
+
 body{
     margin: 0px;
     padding: 0px;
@@ -11,11 +12,24 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+#Header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
 a, ul, ol{
     text-decoration: none;
     color: rgb(255, 255, 255);
 
 }
+
 a:visited{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -51,7 +65,7 @@ a:visited{
     width: 500px;
     height: 75px;
     display: flex;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
 }
 .Cont-img{

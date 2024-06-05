@@ -1,0 +1,185 @@
+@media screen and (max-width: 1650px){
+    /* Menu do site */
+    #menu{
+        margin: 5px 0px 40px 900px;
+    }
+    .item{
+        font: normal 0.7em 'oitobit';
+        width: 180px;
+    }
+    .item:hover{
+        font: bolder 0.8rem 'oitobit';
+        color: orange;
+    }
+
+    /* Corpo */
+
+    #home{
+        width:  1400px;  
+        height: 550px;
+        font-size: 1.1em;
+    }
+
+    #imgPc>img{
+        height: 400px;
+        width: 400px;
+    }
+
+    #produtos{
+        column-gap: 35px;
+        margin: 20px 0px 450px 0px;
+        width: 1500px;
+        flex-wrap: wrap;
+        height: 200px;
+        font-family: 'oitobit';
+        font-size: 0.8em;
+    }
+    .box{
+        height: 200px;
+        width: 350px;
+        margin: 0px 0px 35px 0px;
+    }
+
+
+    .box-img{
+        width: 60px;
+        height: 60px;
+    }
+    
+
+    .box:hover{
+        background-color: #000000;
+        padding-bottom: 35px;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 1430px){
+    /* Menu do site */
+    
+    #menu{
+        margin: 5px 0px 40px 800px;
+    }
+
+    /* Corpo */
+
+    #home{
+        width:  1300px;  
+        height: 480px;
+        font-size: 0.9em;
+    }
+    #produtos{
+        column-gap: 35px;
+        margin: 20px 0px 450px 0px;
+        width: 1200px;
+        flex-wrap: wrap;
+        height: 200px;
+        font-family: 'oitobit';
+        font-size: 0.8em;
+    }
+
+}
+@media screen and (max-width: 1330px){
+    /* Menu do site */
+    #menu{
+        margin: 5px 0px 40px 700px;
+    }
+    #home{
+        width:  1200px;  
+        height: 480px;
+        font-size: 1.1em;
+    }
+
+    #imgPc>img{
+        height: 400px;
+        width: 400px;
+    }
+
+    #produtos{
+        column-gap: 35px;
+        margin: 20px 0px 450px 0px;
+        width: 1290px;
+        flex-wrap: wrap;
+        height: 200px;
+        font-family: 'oitobit';
+        font-size: 0.8em;
+    }
+
+}
+@media screen and (max-width: 1210px){
+    /* Menu do site */
+    #menu{
+        margin: 5px 0px 40px 600px;
+    }
+    
+
+    /* Corpo */
+
+    #home{
+        width:  1100px;  
+        height: 480px;
+        font-size: 1.1em;
+    }
+
+    .box{
+        height: 150px;
+        width: 300px;
+        margin: 0px 0px 35px 0px;
+    }
+
+}
+@media screen and (max-width: 1110px){
+    /* Menu do site */
+
+    #menu{
+        margin: 5px 0px 40px 500px;
+    }
+
+    /* Corpo */
+
+    #home{
+        width:  900px;  
+        height: 480px;
+        font-size: 1.1em;
+    }
+
+    #imgPc>img{
+        height: 350px;
+        width: 350px;
+    }
+
+    #produtos{
+        column-gap: 35px;
+        margin: 20px 0px 450px 0px;
+        width: 1080px;
+        flex-wrap: wrap;
+        height: 200px;
+        font-family: 'oitobit';
+        font-size: 0.8em;
+    }
+    .box{
+        height: 170px;
+        width: 320px;
+        margin: 0px 70px 35px 70px;
+    }
+
+    .box:hover{
+        height: 150px;
+        background-color: #000000;
+        padding-bottom: 50px;
+        font-size: 1.2em;
+    
+    }
+}
+@media screen and (max-width: 600px){
+    
+    .item{
+        display: none;
+    }
+
+    #menu-secundario{
+        display: flex;
+    }
+    #header{
+        padding: 30px 50px 0px 0px;
+    }
+}

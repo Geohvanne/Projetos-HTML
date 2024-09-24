@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Musguita </title>
+    <link rel="shortcut icon" href="Imagens/icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style-header.css">
+    <link rel="stylesheet" href="./src/style-banner.css">
+    <link rel="stylesheet" href="./src/style-main.css">
+    <link rel="stylesheet" href="./src/style-footer.css">
+    <link rel="stylesheet" href="./src/style-calculadora.css">
+    <link rel="stylesheet" href="./src/style-info.css">
+    <link rel="stylesheet" href="./src/style-favsection.css">
+
+                                            <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+                                        <!-- Bebas Neue -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+   
+
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho -->
+         <div id="botaocalculadora"></div>
+        <div id="logo">  </div>
+        <div id="botoes">
+            <a class="link" href="#search"><div class="botao">Músicas</div></a>
+            <a class="link" href="Cadastre-se.html" target="_blank"><div class="botao">Cadastrar-se</div></a>
+            <a class="link" src="#" onclick="showcalculator()"><div class="botao">Calculadora</div></a>
+        </div>
+
+    </header>
+
+    <!-- Banner automático interativo -->               
+    <section id="banner">
+        <div id="carousel">
+            <div class="carousel-image"> </div>
+            <div class="carousel-image"> </div>
+            <div class="carousel-image"> </div>
+            <div class="carousel-image"> </div>
+            
+            <div id="changeimg">
+                <div class="check"></div>
+                <div class="check"></div>
+                <div class="check"></div>
+                <div class="check"></div>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+    <main id="search">
+
+
+        <div id="esquerda" class="left-init">
+            <h1>Selecione uma tipo de pesquisa!!</h1>
+            
+            <div class="container">
+                <p>Músicas</p>
+                <div class="check"></div>
+                <p>Artistas</p>
+                <div class="check"></div>
+            </div>
+        </div>
+        <div id="direita" class="right-init">
+            <h1 id="txt">Qual música deseja pesquisar?</h1>
+            <input type="text" id="artista-musica" placeholder="Artista">            
+            <input type="text" id="musica-artista" placeholder="Música">
+        </div>
+        
+    </main>
+
+    <section id="info">
+        <div id="picture">
+
+        </div>
+        <div id="text">
+
+        </div>
+        
+    </section>
+
+    <section id="favsection">
+
+        <h2 id="title-fav">Lista de Favoritos</h2>
+
+        <ol id="favorite-list">
+            <button onclick="limpafav()">Limpar Favoritos</button>
+        </ol>
+
+    </section>
+
+    <footer>
+
+        <a href="https://github.com/Geohvanne" target="_blank"><div id="geoh" class="autores"><i class="bi bi-github"></i> Geovanne Lopes</div></a>
+        <a href="https://github.com/Gustavoferreir4" target="_blank"><div id="gusta" class="autores"><i class="bi bi-github"></i> Gustavo Ferreira</div></a>
+        <div id="info">
+            <p>leia a documentação da aplicação antes do uso.</p>
+            <p><strong>2024 © Todos os direitos reservados aos desenvolvedores do site</strong></p>
+        </div>
+
+    </footer>
+
+    <div id="calculadora">
+        <a href="#"><div id="fechar" onclick="closeCalculator()"><i class="bi bi-escape"></i></div></a>
+        
+        <div class="display">
+            
+        </div>
+        <div class="keyboard">
+            <div class="key" onclick="limpa()">C</div>
+            <div class="key" onclick="type('^')">^</div>
+            <div class="key" onclick="type('%')">%</div>
+            <div class="key" onclick="type('/')">/</div>
+
+            <div class="key" onclick="type(7)">7</div>
+            <div class="key" onclick="type(8)">8</div>
+            <div class="key" onclick="type(9)">9</div>
+            <div class="key" onclick="type('*')">X</div>
+
+            <div class="key" onclick="type(4)">4</div>
+            <div class="key" onclick="type(5)">5</div>
+            <div class="key" onclick="type(6)">6</div>
+            <div class="key" onclick="type('-')">-</div>
+
+            <div class="key" onclick="type(1)">1</div>
+            <div class="key" onclick="type(2)">2</div>
+            <div class="key" onclick="type(3)">3</div>
+            <div class="key" onclick="type('+')">+</div>
+
+            <div class="key" onclick="type('maismenos')">+/-</div>
+            <div class="key" onclick="type(0)">0</div>
+            <div class="key" onclick="type('.')">.</div>
+            <div class="key" onclick="calculate()">=</div>
+        </div>
+    </div>
+    
+    <script src="./src/calculadora.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="./src/banner.js"></script>
+    <script src="src/favorite.js"></script>
+
+   
+</body>
+</html>

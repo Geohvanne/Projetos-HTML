@@ -1,0 +1,42 @@
+#favsection{
+    display: none;
+    width: 100%;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    min-height: 100px;
+}
+
+#title-fav{
+    font: bold 2.3em bebas neue;
+    margin: 0px;
+}
+
+#favorite-list{
+    color: black;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#favorite-list>li{
+    width: 300px;
+    margin: 3px 0px;
+    display: flex;
+    align-items: center;    
+}
+
+
+.remove-item{
+    position: absolute;
+    right: 20px;
+    color: green;
+    background-color: aliceblue;
+    border: none;
+    font-size: 1em;
+}

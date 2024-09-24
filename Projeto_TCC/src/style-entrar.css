@@ -1,0 +1,41 @@
+
+
+#entrar{
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 10px;
+    color: black;
+    background-color: aliceblue;
+    height: 450px;
+    width: 800px;
+    font-family: Bebas Neue;
+    box-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    border-radius: 5px;
+}
+
+#entrar input{
+    width: 250px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+#enviar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    box-shadow: 2px 2px 2px;
+    font-size: 2em;
+}
+#enviar:hover{
+    background-color: aliceblue;
+    color: black;
+}
+

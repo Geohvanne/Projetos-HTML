@@ -1,4 +1,4 @@
-const enviar = document.getElementById('enviar')
+const enviar = document.getElementById('cadastrar')
 const versenha = document.querySelector('#versenha')
 const versenhaconfirmada = document.querySelector('#versenhaconfirmada')
 let emailcadastrado = []
